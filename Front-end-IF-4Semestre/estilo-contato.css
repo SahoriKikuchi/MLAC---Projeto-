@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Graphik-Medium, Graphic-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+@media only screen and (max-width: 600px) {
+    #esquerda{
+        display:none;
+        width: 100%;
+    }
+}
+
+#esquerda {
+    width: 50%;
+    padding: 10%;
+    background-color: #e5e4e2;
+}
+
+#direita{
+    width: 50%;
+    padding: 10%; 
+}
+
+h3{
+    padding-bottom: 30px;
+    font-size: 25px;
+}
+
+
+input, textarea{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.informacao{
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+}
+
+input[type=text] {
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+input[type=number] {
+    border: none;
+    border-bottom: 2px solid gray;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+button[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+  
+
+/*Navbar*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+    font-weight: bold;
+    color:#612F74;
+}
+
+/*Responsividade Navbar*/
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/*Rodapé*/
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+table{
+    width: 90%;
+    padding: 20px;
+    padding-left: 120px;
+}
+
+tr, td {
+    padding: 8px;
+    text-align: left;
+}
+
+a{
+    text-decoration:none;
+    color: white;
+}
+
+tr a:hover{
+    color: #612F74;
+    padding: 0px;
+}
+
+tfoot tr{
+    text-align: center;
+    padding: 20px;
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+

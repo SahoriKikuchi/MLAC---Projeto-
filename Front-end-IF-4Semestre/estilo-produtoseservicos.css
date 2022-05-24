@@ -1,0 +1,176 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: Graphik-Medium, Graphic-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/*Parte 1*/
+.grid-container-1{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 10%;
+  color: black;
+  background-image:url("https://nubank.com.br/images-cms/1648571588-roxinho-basicos-flutuantes-md-3x.png?w=768&dpr=2&auto=compress&fm=webp"); 
+  background-repeat: no-repeat;
+  height: 70vh;
+  background-size: cover;
+  align-content: center;
+  background-position: center top;
+  grid-area: 2 / 1 / auto / span 5;
+}
+
+.grid-item-1 h1{
+  font-weight: normal;
+  padding: 20px 0 25px 0;
+  font-size: 25px;
+}
+
+.grid-container-1 h2{
+  font-size: 38px;
+}
+
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 10%;
+  background-color: white;
+}
+
+.grid-container > .grid-item{
+  align-content: center;
+}
+
+.grid-item a{
+  color:#612F74;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.grid-item h2{
+  font-size: 59px;
+}
+
+#item-roxo2 a{
+  color: white !important;
+  align-content: center;  
+}
+
+.grid-item p {
+  padding: 20px 0 20px 0;
+  font-weight: bold;
+}
+
+#parte-roxa{
+  background-color: blueviolet;
+}
+
+#item-roxo2{
+  text-align: center;
+  color: white;
+}
+
+.grid-container-i{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  padding: 10%;
+  color: white;
+  background-image: url("https://jrs.digital/wp-content/uploads/2022/01/Credit-Card_5-scaled.jpg");
+  background-repeat: no-repeat;
+  height: 70vh;
+  background-size: cover;
+  align-content: center;
+}
+
+.grid-container-i h2{
+  font-size: 38px;
+}
+
+.grid-container-i p{
+  font-size: 25px;
+  padding: 1px;
+}
+
+/*Navbar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+  
+li {
+  float: left;
+}
+  
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  font-weight: bold;
+  color:#612F74;
+}
+
+/*Responsividade Navbar*/
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, ul.topnav li {
+    float: none;
+  }
+
+  .grid-item h2{
+    font-size: 39px;
+  }
+
+  .grid-item-1 h2 {
+    font-size: 39px;
+  }
+}
+
+/*Rodapé*/
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+table{
+  width: 90%;
+  padding: 20px;
+  padding-left: 120px;
+}
+
+tr, td {
+  padding: 8px;
+  text-align: left;
+}
+
+table a{
+  text-decoration:none;
+  color: white;
+}
+
+tr a:hover{
+  color: #612F74;
+  padding: 0px;
+}
+
+tfoot tr{
+  text-align: center;
+  padding: 20px;
+}
+
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

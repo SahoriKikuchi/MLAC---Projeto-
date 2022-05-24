@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Graphik-Medium, Graphic-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+
+
+
+/*Navbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+  float: left;
+}
+  
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  font-weight: bold;
+  color:#612F74;
+}
+
+/*Responsividade Navbar*/
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+
+/*Rodapé*/
+footer{
+  background-color: black;
+  color: white;
+}
+
+table{
+  width: 90%;
+  padding: 20px;
+  padding-left: 120px;
+}
+
+tr, td {
+  padding: 8px;
+  text-align: left;
+}
+
+a{
+  text-decoration:none;
+  color: white;
+}
+
+tr a:hover{
+  color: #612F74;
+}
+
+tfoot{
+  text-align: center;
+}
+
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

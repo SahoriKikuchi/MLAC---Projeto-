@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Graphik-Medium, Graphic-Regular, "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a{
+  color:#612F74;
+  text-decoration: none;
+}
+
+.title-purple a{
+  font-size: 42px;
+  padding: 0.7px;
+}
+
+.grid-container-i{
+  display: grid;
+  grid-template-columns: 50% 50%;
+  gap: 10px;
+  padding: 10%;
+  color: white;
+  background-image: url("https://nubank.com.br/images-cms/1649356182-home-hero-lg-3x.jpg?w=1152&dpr=1&auto=compress&fm=webp");
+  background-repeat: no-repeat;
+  height: 70vh;
+  background-size: cover;
+}
+
+.grid-container img, .grid-container-b img{
+  padding: 1.4rem;
+  margin: 10px;
+}
+
+.grid-container-i h1{
+  font-size: 42px;
+  padding-bottom: 10px;
+}
+
+.grid-container-i h2{
+  font-weight: normal;
+  padding: 0.7rem;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 10%;
+  background-color: rgb(245, 245, 245);
+}
+
+.grid-container-b{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  padding: 10%;
+  background-color: white;
+}
+
+.grid-container > .grid.item{
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+.text{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/*Navbar*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+li {
+  float: left;
+}
+  
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  font-weight: bold;
+  color:#612F74;
+}
+
+/*Responsividade Navbar*/
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, ul.topnav li {
+    float: none;
+  }
+
+  
+
+}
+
+
+  
+/*Rodapé*/
+
+footer{
+  background-color: black;
+  color: white;
+}
+
+table{
+  width: 90%;
+  padding: 20px;
+  padding-left: 120px;
+}
+
+tr, td {
+  padding: 8px;
+  text-align: left;
+}
+
+table a{
+  text-decoration:none;
+  color: white;
+}
+
+tr a:hover{
+  color: #612F74;
+  padding: 0px;
+}
+
+tfoot tr{
+  text-align: center;
+  padding: 20px;
+}
+
+hr{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
